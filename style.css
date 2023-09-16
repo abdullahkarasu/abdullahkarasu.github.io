@@ -6,11 +6,11 @@ body {
     min-height: 100vh;
 }
 header {
-    background-color: rgba(165, 42, 42, 0.571);
+    background-color: rgba(19, 161, 226, 0.708);
     color: white;
     text-align: center;
     padding: 20px;
-    text-shadow: black;
+    text-shadow: rgb(255, 255, 255);
 }
 
 nav ul {
@@ -22,7 +22,7 @@ nav ul {
   }
 
   nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     position: relative;
     transition: font-weight 0.3s ease;
@@ -48,7 +48,7 @@ nav ul {
 
 .hover-effect:hover {
     color: white;
-    background-color: rgb(165, 42, 42, 0.571);
+    background-color: rgb(19, 161, 226, 0.708);
 }
 
 .centered-text {
@@ -61,7 +61,7 @@ nav ul {
   content: "";
   display: inline-block;
   width: 400px;
-  border-top: 2px solid black;
+  border-top: 2px solid rgb(255, 255, 255);
   margin: 0 20px;
   position: absolute;
   top: 17%;
@@ -85,8 +85,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(165, 42, 42, 0.571);
+    background-color: rgb(19, 161, 226, 0.708);
     color: white;
     text-align: center;
 }
-
